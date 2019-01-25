@@ -4,11 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack --watch",
+    "build": "webpack -p"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^3.4.0"
+  },
+  "devDependencies": {
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.2.4"
   }
 }

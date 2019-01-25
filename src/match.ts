@@ -1,4 +1,4 @@
-export class Match{
+class Match{
     private id:string = '';
     public homeTeam:string ='';
     public awayTeam:string = '';
@@ -37,3 +37,5 @@ export class Match{
         return this.totalSets;
     }
 }
+
+export default Match;

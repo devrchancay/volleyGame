@@ -1,4 +1,4 @@
-export class Rules{
+class Rules{
     protected listRules: {
         [key:string]: number
     };
@@ -22,3 +22,5 @@ export class Rules{
         }
     }
 }
+
+export default Rules;

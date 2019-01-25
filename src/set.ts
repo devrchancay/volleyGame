@@ -2,7 +2,7 @@ interface Sets{
     score(team:string):void;
     start():void;
 }
-export class Set implements Sets {
+class Set implements Sets {
     idMatch:string;
     id:string='';
     pointsAwayTeam:number = 0;
@@ -33,3 +33,5 @@ export class Set implements Sets {
         }
     }
 }
+
+export default Set;
